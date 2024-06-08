@@ -43,6 +43,7 @@ this.component = new ArrayList<>();
 
     private void initializeVertex(int vertex) {
         points.put(vertex, number);
+//مرام عبد المجيد حسن
         low.put(vertex, number);
         number++;
         stack.push(vertex);
